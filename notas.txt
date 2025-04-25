@@ -2,3 +2,8 @@
 k6 run --vus 10 --duration 10s --out json=test.json  script.js
 
 k6 run --out json=results.json --iterations 10  multiple-flows.js
+
+K6_WEB_DASHBOARD=true k6 run HTTP/02-script.js
+
+
+
