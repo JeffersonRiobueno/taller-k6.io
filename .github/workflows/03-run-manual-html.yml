@@ -26,4 +26,4 @@ jobs:
         if: always()
         with:
           name: k6-results
-          path: results.html
+          path: result.html
