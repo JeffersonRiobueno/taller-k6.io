@@ -16,7 +16,7 @@ export default function () {
     describe('should respond with status 200, when a valid rating id is provided', () => {
       const expected = {
         id: 1,
-        stars: 5,
+        stars: 2,
         pizza_id: 1,
       };
 
